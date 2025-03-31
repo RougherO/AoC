@@ -1,0 +1,14 @@
+[package]
+name = "Y2024"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "D1P1"
+path = "src/D1/P1/bin/main.rs"
+
+[[bin]]
+name = "D1P2"
+path = "src/D1/P2/bin/main.rs"
+
+[dependencies]
