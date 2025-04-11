@@ -7,29 +7,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'D3P1'",
+            "name": "Debug executable 'D5P1'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=D3P1",
+                    "--bin=D5P1",
                     "--package=Y2024"
                 ],
             },
             "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug executable 'D3P2'",
-            "cargo": {
-                "args": [
-                    "build",
-                    "--bin=D1P2",
-                    "--package=Y2024"
-                ],
-            },
-            "args": [],
+            "stdio": "src/D05/P1/input.txt",
             "cwd": "${workspaceFolder}"
         },
         {

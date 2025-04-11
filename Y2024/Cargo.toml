@@ -5,27 +5,43 @@ edition = "2024"
 
 [[bin]]
 name = "D1P1"
-path = "src/D1/P1/bin/main.rs"
+path = "src/D01/P1/bin/main.rs"
 
 [[bin]]
 name = "D1P2"
-path = "src/D1/P2/bin/main.rs"
+path = "src/D01/P2/bin/main.rs"
 
 [[bin]]
 name = "D2P1"
-path = "src/D2/P1/bin/main.rs"
+path = "src/D02/P1/bin/main.rs"
 
 [[bin]]
 name = "D2P2"
-path = "src/D2/P2/bin/main.rs"
+path = "src/D02/P2/bin/main.rs"
 
 [[bin]]
 name = "D3P1"
-path = "src/D3/P1/bin/main.rs"
+path = "src/D03/P1/bin/main.rs"
 
 [[bin]]
 name = "D3P2"
-path = "src/D3/P2/bin/main.rs"
+path = "src/D03/P2/bin/main.rs"
+
+[[bin]]
+name = "D4P1"
+path = "src/D04/P1/bin/main.rs"
+
+[[bin]]
+name = "D4P2"
+path = "src/D04/P2/bin/main.rs"
+
+[[bin]]
+name = "D5P1"
+path = "src/D05/P1/bin/main.rs"
+
+[[bin]]
+name = "D5P2"
+path = "src/D05/P2/bin/main.rs"
 
 [dependencies]
 regex = "1.11.1"
